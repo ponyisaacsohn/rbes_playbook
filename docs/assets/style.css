@@ -353,3 +353,47 @@ body[data-page="index"] header .nav {
 }
 main { font-size: 4rem !important; line-height: 1.2 !important; }
 main { font-size: 2rem !important; line-height: 1.5 !important; }
+
+/* --- Subtle composite background for homepage --- */
+body[data-page="index"] {
+  background: linear-gradient(
+    135deg,
+    #f7e7f0 0%,
+    #fff0c2 20%,
+    #d8f3dc 40%,
+    #d0ebff 60%,
+    #fce2d1 80%,
+    #ffd6e0 100%
+  );
+  background-attachment: fixed;
+  color: #111;
+}
+
+body[data-page="index"] main {
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(4px);
+  padding: 6vh 10vw;
+  border-radius: 1rem;
+}
+
+/* --- Subtle composite background for homepage --- */
+body[data-page="index"] {
+  background: linear-gradient(
+    135deg,
+    #f7e7f0 0%,
+    #fff0c2 20%,
+    #d8f3dc 40%,
+    #d0ebff 60%,
+    #fce2d1 80%,
+    #ffd6e0 100%
+  );
+  background-attachment: fixed;
+  color: #111;
+}
+
+body[data-page="index"] main {
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(4px);
+  padding: 6vh 10vw;
+  border-radius: 1rem;
+}
