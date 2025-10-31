@@ -1,11 +1,14 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
+  // Force Eleventy to copy your assets folder properly
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addWatchTarget("./src/assets/");
-  eleventyConfig.addFilter("date", (value, format) => { const date = new Date(); return date.getFullYear(); });
+
   return {
-    dir: { input: "src", output: "docs", includes: "_includes" },
-    pathPrefix: "/",
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk"
+    dir: {
+      input: "src",
+      output: "docs",
+      includes: "_includes",
+      layouts: "_includes"
+    },
+    markdownTemplateEngine: "njk"
   };
 };
