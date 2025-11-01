@@ -1,21 +1,23 @@
 ---
 layout: base.njk
-title: Rulebreakers English Studios Playbook
+title: Rulebreakers English Studios (The Plan)
 ---
+Rulebreakers English Studios is a startup disguised as a school disguised as a startup.  
+**USP:** English via *Institutional Performance Art.*
 
-Rulebreakers English Studios is a prototype for a new kind of English school.  
-Instead of sitting in classrooms, students create imaginary startups which become real.  
-Instead of taking tests, they design roller coasters, create animated films, publish newspapers, craft REIT proposals, write sitcoms, research the optimal Pad Thai, architect tunnelparks, code games, and paint collaboratively.  
+Instead of lectures, students [design worlds](/studios/unicornworld/) in the **Unicornworld Imagineering Studio.**  
+Instead of teachers, they [co-write animated films](/studios/meanbabies/) with their peers in **Mean Babies Animation Lab.**  
+Instead of homework, they [publish newspapers](/studios/experienceworker/) in **Experience Worker Media.**  
+Instead of business classes, they [research the perfect Pad Thai](/studios/padthai/) at the **Pad Thai Optimization Bureau.**  
+Instead of architecture theory, they [draw tunnelparks](/studios/tunnelpark/) in **Tunnelpark Architecture.**  
+Instead of conversation drills, they [host live interviews](/studios/channel99/) on **Channel 99.**  
+Instead of logic puzzles, they [design games](/studios/gameeconomy/) in the **Game Economy Studio.**  
+Instead of sociology essays, they [simulate future cities](/studios/socialarcology/) in **Social Arcology.**  
+Instead of marketing exercises, they [build brands](/studios/tmtbottega/) inside **TMT Bottega.**
 
-This playbook is both for future student-owners and investors.  
+This is **The Plan** for turning that idea into reality in three moves —  
+[Workshops](/workshops/), [Year-Long Test of Concept](/year-test/), and [Infinite Thailand](/context/).
 
-On it, you’ll learn:  
-(1) [Who we are](background),  
-(2) [The popup workshops running now](workshops),  
-(3) [The year-long test of concept](year-test),  
-(4) [The theory behind the model](theory),  
-(5) [The revenue model](revenue),  
-(6) [The budget](budget),  
-(7) [The metrics and outcomes](metrics),  
-(8) [The intellectual context](context), and  
-(9) [The shared ownership program](ownership).
+It’s written for [student-owners](/ownership/), [teachers](/who/), [workshop collaborators](/workshops/), and [angel investors](/angel/) —  
+those who will build the studios, teach inside them, collaborate on their workshops, and fund their proof of concept.
+
