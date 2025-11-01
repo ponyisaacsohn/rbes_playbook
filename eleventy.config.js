@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/assets");
   return {
+    pathPrefix: "/", // ensures CSS and links work both locally and on GitHub Pages
     dir: {
       input: "src",
       output: "docs"
