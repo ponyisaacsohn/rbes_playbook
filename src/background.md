@@ -1,19 +1,24 @@
 ---
-title: Who We Are and How We Discovered the Rulebreakers English Method
 layout: base.njk
-description: The story of how Ben Shepard and Job Zheng’s research in art, education, and performance led to the creation of Rulebreakers English Studios.
+title: "Background"
 ---
 
-# Who We Are and How We Discovered the Rulebreakers English Method
+<h1>Who We Are and How We Came Up With the Rulebreaker Method</h1>
 
-Rulebreakers English Studios was founded by **Ben Shepard** and **Job Zheng**, married collaborators since 2016 who create what they call *institutional performance art*—extended, adult make-believe organizations that function like real ones.  
+Although we finally discovered the key to the Rulebreaker Method in a [miniature city run entirely by children](https://spiellandschaft.de/minimuenchen/), the story actually begins in 2014 on the South Side of Chicago, with a fake mayoral campaign for Kanye West that unexpectedly went viral.  
 
-Ben studied at the **University of Chicago** under performance artist **Tania Bruguera**, whose works—*Cathedra Arte*, *Immigrant Movement International*, *The Hannah Arendt Institute*—stage institutions as the artwork itself.  Already in college, Ben began making his own fictive systems: a temporary city on the Midway, a post-apocalyptic commune, and then **Kanye 4 Mayor**, a fake campaign for Kanye West to become mayor of Chicago.  The project went unexpectedly viral, appearing on MTV and BET—his first proof of how powerful institutional performance could be.  
+We’re Ben Shepard and Job Zheng, institutional performance artists and co-founders of [Rulebreakers English Studios](/theory/).  
 
-Job and Ben met in **Shanghai**, both creating fictional organizations—fake art schools, studios, and collectives such as *ZaoFang* and *Dawn House* (造房, “to build a house”).  Wanting deeper context, they applied to Berlin’s **Universität der Künste / Institute for Art in Context**, where they focused formally on institutional performance art.  While there, they served as the first research fellows at **Mini-München**, a child-run model city that re-creates urban life each summer.  
+In 2014, Ben created the [website for a hypothetical campaign for Kanye West to become Mayor of Chicago](https://archive.is/Ydz40). Word of the site spread fast—from a local blog to BET, MTV, and the [*Chicago Tribune*](https://www.chicagotribune.com/entertainment/music/ct-kanye-west-mayor-campaign-20141113-story.html). Although West chose a very different political path, the impact of that simple site revealed the power of these kinds of imaginary institutions.  
 
-At Mini-München they made their key discovery: children worked with astonishing intensity and joy.  They loved performing institutional life—running restaurants, designing bus routes, administering fake governments.  This observation—combined with their art practice and with linguist **Stephen Krashen’s** *Affective Filter* hypothesis (the idea that anxiety blocks language acquisition while play and purpose open it)—led to the concept of a new kind of English school.  
+We met in 2016 in Shanghai, fell in love, and immediately began performing institutions. Our first collaboration was **早房** — *Dawn House* — an experimental residential school. Over the next few years, we continued to perform these fictional institutions: a cooperative bike company in Ho Chi Minh City, a conceptual consulting firm, and a series of ephemeral studios that blurred the line between art and enterprise.  
 
-That school became **Rulebreakers English Studios**: a living artwork that teaches English by having students perform imaginary but functional organizations—theme parks, newspapers, architecture firms, studios, and startups.  It is a synthesis of art research, educational theory, and practical enterprise.  
+In 2021, we enrolled together at the [Institut für Kunst im Kontext](https://www.udk-berlin.de/en/) at Berlin’s *Universität der Künste* — the Institute for Art in Context at the University of the Arts. We wanted to take our institutional performances to the next scale and hoped the German progressive art-academic system would help us do so. It didn’t, but we did become the first research fellows at [Mini-München](https://spiellandschaft.de/minimuenchen/), also known as the *Spielstadt*.  
 
-[→ Next: The Workshops We Are Running Now](/workshops/)
+Every two years, for three weeks each summer, about four thousand children between the ages of 7 and 15 come together to create a small city—complete with a representative government, stock market, university, television station, theater, and dozens of craft workshops: leather-making, print-making, scent-making.  
+
+No classes, but so much learning. Learning how to run a government, a stock exchange, how to make movies, perfume, paintings, newspapers. Perhaps the child playing judge in the Mini-München Court didn’t think of herself as an institutional performance artist—but we saw the connection. Extended make-believe makes people passionate to learn.  
+
+Here is three-quarters of the Rulebreakers Method: make learning English fun by using it in extended make-believe — institutional performance — the [studios](/studios/). The other quarter: try to make the make-believe real. Have the consultants really consult. The imagineers really imagineer.  
+
+We are now raising funds to open a [year-long proof-of-concept storefront](/year-test/) to demonstrate this model at scale. Until then, we’re running as many [workshops](/workshops/) as possible to test the idea and refine the method.  

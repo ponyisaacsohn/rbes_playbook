@@ -3,7 +3,7 @@
 /* GLOBAL BASE */
 body {
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #1a1a1a;
   background: #fff;
   margin: 0;
@@ -403,4 +403,261 @@ body {
 h1, h2, h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+main { margin-top: 1.5rem !important; }
+main { margin-top: 1.5rem !important; }
+/* ==== Tighten space under the navbar ==== */
+header, .site-header { margin-bottom: 0.75rem !important; }
+
+/* Remove any extra top offset on the content area */
+main, .content, .container { margin-top: 0 !important; padding-top: 0.25rem; }
+
+/* Kill the “first-child top margin collapse” */
+main > *:first-child,
+.content > *:first-child,
+.container > *:first-child,
+p:first-of-type,
+h1:first-of-type,
+h2:first-of-type {
+  margin-top: 0 !important;
+}
+
+/* If a horizontal rule is creating the gap, keep it tight */
+hr { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+body { outline: 2px solid transparent; } /* cache-bust marker */
+/* === Tighten space under header/nav (force) === */
+header, .site-header, nav { margin-bottom: 0.5rem !important; padding-bottom: 0 !important; }
+
+/* Common wrappers Eleventy sites use */
+main, .content, .container, .wrapper, .page, .prose {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* If the layout adds a spacer for a fixed header, kill it */
+.spacer, .site-spacer, .header-spacer { height: 0 !important; margin: 0 !important; padding: 0 !important; }
+
+/* Stop first element from adding its own top gap (margin collapse) */
+main > *:first-child,
+.content > *:first-child,
+.container > *:first-child,
+.wrapper > *:first-child,
+.page > *:first-child,
+.prose > *:first-child {
+  margin-top: 0 !important;
+}
+
+/* Headings & paragraphs at the very top */
+h1:first-of-type, h2:first-of-type, h3:first-of-type, p:first-of-type {
+  margin-top: 0 !important;
+}
+
+/* Tighten any horizontal rule right below nav */
+hr { margin-top: 0.25rem !important; margin-bottom: 0.75rem; }
+header, .site-header, nav { margin-bottom: 1rem !important; }
+header, .site-header, nav { margin-bottom: 2rem !important; }
+body { font-size: 18px; line-height: 1.7; letter-spacing: 0.01em; }
+main { max-width: 760px; margin: 2rem auto; }
+h1, h2, h3 { letter-spacing: 0.03em; text-transform: none; font-weight: 600; }
+.navbar a { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 0 0.4rem; color: #111; text-decoration: none; }
+.navbar { text-align: center; margin-bottom: 1.75rem; }
+body { color: #222; } p { color: #333; } a { color: #1a3d8f; }
+/* --- Title and header refinement --- */
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin-top: 1.8rem;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.02em;
+}
+
+h1 em, h1 i {
+  font-style: italic;
+  font-weight: 400;
+  color: #444;
+}
+
+header, .site-header, nav {
+  margin-bottom: 2rem !important;
+}
+
+.navbar {
+  margin-top: 0.25rem;
+  margin-bottom: 1.75rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.navbar, h1, h2, h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+.navbar, h1, h2, h3 {
+  font-family: 'Work Sans', Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+/* keep subtitle inline with main title */
+h1 em, h1 i {
+  display: inline;
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 0.35rem;
+  white-space: nowrap;
+  color: #444;
+}
+/* --- Navbar refinement: keeps it one clean horizontal line --- */
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+
+.navbar a {
+  color: #111;
+  text-decoration: none;
+  padding: 0.1rem 0.4rem;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #444;
+  text-decoration: underline;
+}
+/* --- keep "(The Plan)" on the same line as title --- */
+h1 {
+  white-space: nowrap;
+}
+/* --- refine main title hierarchy --- */
+h1 {
+  font-size: 3rem;      /* was ~2.4–2.6rem */
+  line-height: 1.1;
+  margin-top: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+h1 em, h1 i {
+  font-size: 1.35rem;
+  vertical-align: baseline;
+  margin-left: 0.35rem;
+  color: #555;
+}
+/* --- allow long page titles to wrap normally --- */
+h1, h2, h3, h4, h5, h6 {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+/* keep full title together on one line */
+h1 {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* --- keep (The Plan) inline but prevent ellipsis cutoff --- */
+h1 {
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
+  font-size: clamp(2rem, 5vw, 3rem); /* scales down smoothly on small screens */
+}
+
+h1 em, h1 i {
+  display: inline;
+  white-space: nowrap;
+  margin-left: 0.35rem;
+  font-size: 0.55em;
+  font-style: italic;
+  color: #555;
+}
+/* === Scoped styling for BACKGROUND page only === */
+body.page-background main {
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #222;
+  padding: 2rem 1rem;
+}
+
+body.page-background p {
+  margin-bottom: 1.25rem;
+}
+
+body.page-background h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.03em;
+}
+
+body.page-background a {
+  color: #1a3d8f;
+}
+
+body.page-background a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* optional: subtle background tint just for this page */
+body.page-background {
+  background-color: #fafafa;
+}
+/* fix long h1 titles on background page */
+body.page-background h1 {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+  line-height: 1.2;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 2.2rem;
+}
+/* fix for long background title wrapping */
+body.page-background h1 {
+  display: block;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 2.5rem auto;
+  max-width: 85%;
+  color: #111;
+}
+/* === Fix: Ensure Background page title always visible and wrapped === */
+main h1:first-of-type {
+  display: block !important;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 2.5rem auto 2rem auto;
+  max-width: 85%;
+  color: #111;
 }
