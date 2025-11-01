@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "deploy": "npm run build && echo rulebreakers.studio > docs/CNAME && git add docs && git commit -m 'Deploy site' || echo No changes && git push"
   },
   "dependencies": {
     "luxon": "^3.7.2"

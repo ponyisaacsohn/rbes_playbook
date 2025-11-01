@@ -1,0 +1,1 @@
+{"scripts":{"build":"npx @11ty/eleventy","deploy":"npm run build && rm -rf docs && mkdir docs && cp -r _site/* docs && echo rulebreakers.studio > docs/CNAME && git add docs && git commit -m \"Deploy site\" && git push"}}
