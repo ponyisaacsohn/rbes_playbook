@@ -1,8 +1,8 @@
 ---
-title: "mean babies"
-layout: "base.njk"
+layout: base.njk
+title: Rulebreakers Studio
 ---
+# Meanbabies Management
 
-# mean babies
-
-_Content coming soon._
+**Manage imaginary pop idols and hybrids.**  
+Students learn persuasion, communication, and creative English through producing and managing conceptual celebrities.

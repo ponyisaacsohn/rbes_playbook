@@ -1,8 +1,8 @@
 ---
-title: "english is money"
-layout: "base.njk"
+layout: base.njk
+title: Rulebreakers Studio
 ---
+# English Is Money Gaming
 
-# english is money
-
-_Content coming soon._
+**Learn by earning.**  
+Students design games where English fluency creates real-world value.

@@ -1,8 +1,8 @@
 ---
-title: "tmt bottega"
-layout: "base.njk"
+layout: base.njk
+title: Rulebreakers Studio
 ---
+# TMT Bottega
 
-# tmt bottega
-
-_Content coming soon._
+**Paint transpersonally.**  
+Students co-create visual works that merge consciousness and commerce.

@@ -389,3 +389,18 @@ nav {
 .page-content {
   margin-top: 0; /* remove extra gap between nav and body */
 }
+
+/* === RBES custom fixes === */
+main {
+  margin-top: 1.5rem !important;   /* reduce big gap under nav */
+}
+
+body {
+  font-size: 1.1rem;                /* slightly larger default font */
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

@@ -1,8 +1,8 @@
 ---
-title: "social arcology"
-layout: "base.njk"
+layout: base.njk
+title: Rulebreakers Studio
 ---
+# Social Arcology Lab
 
-# social arcology
-
-_Content coming soon._
+**Prototype urban futures.**  
+Students learn systems English while designing ecological cities and social experiments.
