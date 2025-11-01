@@ -378,3 +378,14 @@ main{
   font-size: 2rem;
   line-height: 1.2;
 }
+
+cat >> src/assets/style.css <<'EOF'
+
+/* --- Navbar spacing cleanup --- */
+nav {
+  margin-bottom: 0.5rem; /* reduce space below navbar */
+}
+
+.page-content {
+  margin-top: 0; /* remove extra gap between nav and body */
+}
