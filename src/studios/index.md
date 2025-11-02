@@ -13,33 +13,33 @@ Together, the nine studios form the operational ecosystem of Rulebreakers Englis
 
 ---
 
-## Early Studios
+## 9–18 Years
 
 | Studio | What is it? | Big Project | Revenue Model | USP |
 |:--|:--|:--|:--|:--|
-| [**Unicornworld Imagineering**](/studios/unicornworld/) | Theme park design lab | Build a fictional theme park and its map | Licensing creative IP | Learn engineering + storytelling through English |
-| [**Clownpump Press**](/studios/clownpump/) | Media and journalism studio | Launch *Rulebreakers Weekly* newspaper | Advertising + sponsorships | Learn writing, editing, and persuasion |
-| [**Channel 99**](/studios/channel-99/) | TV + sitcom production | Film and market a short sitcom | Distribution & views | Learn conversational + collaborative English |
+| [**Unicornworld Imagineering**](/studios/unicornworld/) | Theme park / worldbuilding lab | Build a mall-scale photo/experience set where visitors create characters and worlds | Experience tickets (future) | Learn engineering + storytelling through English |
+| [**Meanbabies Management**](/studios/mean-babies/) | Talent management simulator | Package characters/products across RBES universes | Packaging & representation (future) | Learn presentation + management English |
+| [**Clownpump Press**](/studios/clownpump/) | Publishing house | Make the *Rulebreakers English Newspaper* and related print | Ads & distribution (future) | Learn writing, editing, persuasion |
 
 ---
 
-## Middle Studios
+## 19–129 Years
 
 | Studio | What is it? | Big Project | Revenue Model | USP |
 |:--|:--|:--|:--|:--|
-| [**Meanbabies Management**](/studios/mean-babies/) | Talent management firm | Produce and market a conceptual celebrity | Branding and appearances | Learn presentation and management English |
-| [**Experience Worker**](/studios/experience-worker/) | Tourism + lifestyle lab | Design and test a Rulebreakers tour experience | Ticketing, experiences | Learn customer + hospitality English |
-| [**English Is Money Gaming**](/studios/english-is-money/) | Game design studio | Create a language-based incentive game | In-app rewards, licensing | Learn through play + behavior design |
+| [**Channel 99**](/studios/channel-99/) | TV + sitcom production | Film and market a short sitcom | Distribution & sponsorships (future) | Conversational + collaborative English |
+| [**Experience Worker**](/studios/experience-worker/) | Tourism / lifestyle design | Design and test a Rulebreakers tour | Ticketing & partnerships (future) | Customer + hospitality English |
+| [**English Is Money Gaming**](/studios/english-is-money/) | Game design & incentives | Create a language-based incentive game | Licensing / subs (future) | Learn through play + behavior design |
 
 ---
 
-## Advanced Studios
+## 9–129 Years
 
 | Studio | What is it? | Big Project | Revenue Model | USP |
 |:--|:--|:--|:--|:--|
-| [**Social Arcology Lab**](/studios/social-arcology/) | Urban futures think tank | Design a model city | Consulting + research | Learn civic English + systems design |
-| [**Infinite Thailand Solutions**](/studios/infinite-thailand/) | Development consulting lab | Write a national “Infinite Thailand” plan | Strategy + contracts | Learn formal + enterprise English |
-| [**TMT Bottega**](/studios/tmt-bottega/) | Art-commerce atelier | Stage an exhibition and sell work | Art sales | Learn aesthetic language + creative economy |
+| [**Social Arcology Lab**](/studios/social-arcology/) | Urban futures think tank | Design a model city | Consulting & research (future) | Civic English + systems design |
+| [**Infinite Thailand Solutions**](/studios/infinite-thailand/) | Development consultancy | Write a national “Infinite Thailand” plan | Strategy contracts (future) | Formal + enterprise English |
+| [**TMT Bottega**](/studios/tmt-bottega/) | Art–commerce atelier | Stage an exhibition and sell work | Art sales (future) | Aesthetic language + creative economy |
 
 ---
 
