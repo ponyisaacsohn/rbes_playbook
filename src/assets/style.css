@@ -661,3 +661,30 @@ main h1:first-of-type {
   max-width: 85%;
   color: #111;
 }
+/* === Typography polish for Rulebreakers site === */
+
+/* Paragraph rhythm: smoother vertical flow */
+main p {
+  line-height: 1.7;
+  margin: 0 0 1.2rem 0;
+  max-width: 720px;
+}
+
+/* Headings spacing: add visual breath but remove over-gap */
+main h1, main h2, main h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  max-width: 720px;
+}
+
+/* Remove any extra top padding Eleventy might apply */
+main {
+  padding-top: 1rem !important;
+}
+
+/* Optional: unify paragraph width and text rendering */
+main {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+}

@@ -1,84 +1,96 @@
 ---
-title: Theory
 layout: base.njk
-description: "The theoretical equation underlying the Rulebreakers English Method — Dewey + Vygotsky + Krashen + Institutional Performance Art = Osmotic Learning."
+title: "Theory"
 ---
-## Theory
 
-**The Rulebreakers English Method** is based on **Osmotic Learning** —  
-learning that occurs through immersion in a meaningful, designed environment.  
+# Theory
 
-Osmotic Learning can be expressed as an equation:
+### The Rulebreakers Equation
 
-> **Dewey + Vygotsky + Krashen + Institutional Performance Art = Osmotic Learning**
-
-Each component contributes a mechanism of learning proven through research.
+**The Rulebreakers Method =**  
+*(Project-Based Learning × Social Collaboration × Affective Filter ↓) + Institutional Design = Accelerated English Through Creation*
 
 ---
 
-## (1) John Dewey — Learning by Doing
+### 1. Project-Based Learning → Experience as Curriculum
 
-Dewey proposed that knowledge is created through *experience and reflection*, not passive instruction.  
-His principle of **Project-Based Learning** (Dewey, *Experience and Education*, 1938) laid the groundwork for modern experiential education.  
-A meta-analysis by Hmelo-Silver (2004) found that project-based environments increase motivation, retention, and conceptual understanding.
+**John Dewey (1938)** showed that people learn through action and reflection — not passive instruction.  
+A 2023 meta-analysis confirms that project-based learning environments increase motivation, retention, and conceptual understanding  
+([Frontiers in Psychology, 2023](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1202728/full)).  
 
-**At RBES:** every session is a project. Students learn English by designing, building, and presenting real outputs.
+At RBES: every project is a learning engine.  
+Each studio functions like a small company, and every deliverable — magazine, video, exhibition, design — is also a lesson.  
 
----
-
-## (2) Lev Vygotsky — Zone of Proximal Development (ZPD) & Scaffolding
-
-Vygotsky’s theory (1978) describes learning as a social process: students progress when supported by peers or mentors just beyond their current ability.  
-Scaffolding theory, extended by Wood, Bruner & Ross (1976), formalized this mechanism.
-
-**At RBES:** studios are built as collaborative scaffolds.  
-Students and instructors co-perform tasks, and English emerges as the shared working language inside that collaboration.
+**Equation:**  
+\`Experience → Context → Meaning → Language Retention ↑\`
 
 ---
 
-## (3) Stephen Krashen — The Affective Filter
+### 2. Social Collaboration → Scaffolding in Motion
 
-Krashen’s *Affective Filter Hypothesis* (1977) identifies emotional state as the gatekeeper of language acquisition.  
-When anxiety is low and motivation is high, input becomes intake.  
-MacIntyre & Gardner (1991) confirmed that positive affect strongly correlates with L2 fluency.
+**Lev Vygotsky (1978)** described the *Zone of Proximal Development* — where people learn fastest by working with others slightly ahead of them.  
+This was formalized as *scaffolding* (Wood, Bruner & Ross, 1976).  
 
-**At RBES:** the studios remove the anxiety of performance by turning it into play.  
-There are no tests, only projects that matter.
+At RBES: the scaffold is the studio.  
+Students and instructors share tasks, shifting between learner and leader.  
+English emerges as the shared operational language — a medium of action, not performance.  
 
----
-
-## (4) Institutional Performance Art (IPA)
-
-Developed within contemporary art by practitioners like **Tania Bruguera**, IPA treats the institution itself as a medium.  
-The artwork is not an object but a functioning structure.  
-In this model, behavior, administration, and context become the performance.
-
-**At RBES:** the school *is* the artwork.  
-Running it is the method. Every administrative act is also pedagogical; the institution teaches by being lived.
+**Equation:**  
+\`Collaboration × Shared Goal → Collective Fluency ↑\`
 
 ---
 
-## (5) Synthesis — Osmotic Learning
+### 3. The Affective Filter ↓ → Motivation × Confidence ↑
 
-When we combine these four components, the result is **Osmotic Learning**:
+**Stephen Krashen (1977)** identified emotional state as the critical variable in language acquisition:  
+when anxiety (the *Affective Filter*) is high, input is blocked; when it drops, fluency accelerates.  
+Later studies (MacIntyre & Gardner, 1991) confirmed that self-confidence, play, and relevance predict faster L2 learning.  
 
-| Component | Function | Effect in RBES |
-|------------|-----------|----------------|
-| Dewey | Experience as curriculum | Projects create context for language |
-| Vygotsky | Social collaboration | Scaffolding turns peers into teachers |
-| Krashen | Emotional state | Play and purpose lower anxiety |
-| IPA | Structure as medium | The institution itself becomes a classroom |
+At RBES: play, humor, and purpose are structural features.  
+The affective filter is designed downward — not through comfort alone, but through **meaningful creative risk**.  
 
-**Osmotic Learning = Environment × Motivation × Meaning**
-
-Students acquire language because they are immersed in a world they help design, operate, and believe in.
+**Equation:**  
+\`Affective Filter ↓ → Motivation ↑ × Output Frequency ↑ × Fluency ↑\`
 
 ---
 
-## Implication
+### 4. Institutional Design → Structure as Medium
 
-Traditional education separates *what is learned* from *why it matters.*  
-Osmotic Learning reunites them.  
-Rulebreakers English Studios exists to demonstrate that when form and function merge, learning becomes performance.
+Emerging from **Institutional Performance Art** (Bruguera, Fraser, Naprushkina), this principle reframes the school itself as a medium.  
+The structure — its rules, administration, and behavior — becomes both artwork and pedagogy.  
+
+At RBES: running the institution *is* the education.  
+Every administrative and creative act is also an English act — emails, proposals, pitches, negotiations.  
+
+**Equation:**  
+\`Institutional Design × Performance → Learning as Byproduct\`
+
+---
+
+### 5. The Composite Model
+
+| Variable | Function | Direction of Effect |
+|:--|:--|:--|
+| Project-Based Learning | Turns English into a tool for real work | ↑ Engagement |
+| Collaboration | Converts peers into teachers | ↑ Fluency |
+| Affective Filter | Lowers anxiety, raises play | ↓ Barrier |
+| Institutional Design | Makes the structure itself the lesson | × Integration |
+
+---
+
+### 6. The Final Formula
+
+\`\`\`
+(Project-Based Learning × Collaboration × (1 ÷ Affective Filter)) + Institutional Design = Real English Through Real Creation
+\`\`\`
+
+or, more simply:
+
+**The Rulebreakers Method = Structure × Play × Production**
+
+Students don’t study English — they build in it.  
+They perform institutions that teach themselves.
+
+---
 
 [→ Next: Revenue Model](/revenue/)
