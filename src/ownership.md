@@ -5,132 +5,83 @@ title: "The Student Ownership System (SOS)"
 
 # The Student Ownership System (SOS)
 
-> **Learning with Stakes.**  
-> Rulebreakers English Studios turns every learning act into a real contribution—tracked, valued, and shared.  
-> The SOS is how students move from “participants” to “co-owners” of what they create.
+## 0. What It Is
+
+The **Student Ownership System (SOS)** makes every student a co-owner in the Rulebreakers Studios.  
+When a studio earns money — from ticket sales, consulting projects, game launches, art commissions, or media rights — the students who helped build those projects share the profits.
+
+This means that the same people learning to create value are also the ones who receive it.  
+Every participant is both a **student** and a **stakeholder.**
 
 ---
 
-## 1. What the SOS Is
+## 1. How It Works
 
-The **Student Ownership System** links learning outcomes to real-world stakes.  
-Each student earns *Studio Points* for creative and operational work done inside a studio.  
-Points translate into a share of that studio’s profits, royalties, or spin-out equity.
+Each student receives a small ownership share — expressed as **Studio Points** — in the studio or sub-project they help to build.  
+These points track contribution (time, effort, creativity, leadership) and translate into real payout when a project makes money.
 
-| Component | Function | Analogy |
+| Component | Function | Example |
 |------------|-----------|----------|
-| **Studio Points** | Quantify contribution and responsibility | “stock options” for creative effort |
-| **Student Pool (20%)** | Portion of each studio’s net reserved for participants | cooperative profit-share |
-| **Conversion Rule** | Points convert to revenue or equity upon spin-out | ESOP-like logic |
-| **Ledger** | Transparent record of all allocations | open accounting |
+| **Studio Points** | Track contribution and determine profit share. | A student who leads design for a Channel 99 show earns more points than a guest actor. |
+| **Ownership Ledger** | Transparent record of who contributed what, and how much revenue is owed. | The ledger updates after each production, launch, or event. |
+| **Payout Cycle** | Revenue distributed quarterly or at project close. | Income from an exhibition, client project, or online release gets divided automatically. |
 
 ---
 
-## 2. Why It Matters
+## 2. What This Means in Practice
 
-Traditional schooling asks students to simulate outcomes for grades.  
-RBES asks them to build outcomes that *exist in the world.*  
-When you co-own the result:
+Each Rulebreakers Studio has its own potential revenue path — and students share in those outcomes:
 
-- Motivation becomes intrinsic.  
-- Collaboration becomes accountable.  
-- English becomes a working language—not a subject.
+| Studio | Example of Real Revenue | How Students Benefit |
+|---|---|---|
+| **Unicornworld Imagineering** | Admission fees from immersive park environments and public installations. | Students who designed attractions receive a share of ticket sales. |
+| **Mean Babies Management** | Merchandising, licensing of original characters, brand collaborations. | Students who develop and manage “talent” receive royalties. |
+| **Clownpump Press** | Book and zine sales, print-on-demand editions. | Contributors receive proportional payouts for each sold copy. |
+| **Channel 99** | Advertising, streaming partnerships, live events. | Cast, editors, and producers share income when content monetizes. |
+| **Experience Worker** | Corporate workshops, design consulting, applied research. | Adult learners who deliver client work share consulting fees. |
+| **English Is Money Gaming** | Entry fees, sponsorships, and in-game marketplace activity. | Players, designers, and moderators earn from total game revenue. |
+| **TMT Bottega** | Commissions, exhibition sales, or digital art editions. | Artists and facilitators share profits from sold works. |
+| **Social Arcology Lab** | Grants and development funds for social prototypes. | Research teams share project budgets and outcomes. |
+| **Infinite Thailand Solutions** | Cultural consulting, government and NGO contracts. | Analysts and project designers receive proportional revenue. |
 
-> In short: **Learning = Doing, Doing = Ownership.**
-
----
-
-## 3. Behavioral Rationale
-
-The SOS design draws on established research:
-
-- **Self-Determination Theory** – Autonomy, competence, and relatedness drive intrinsic motivation.  
-- **Prospect Theory** – Perceived stakes sharpen focus.  
-- **The IKEA Effect** – We value what we help create.  
-- **Narrative Intelligence** – Ownership makes students protagonists, not test subjects.
-
-RBES makes these behavioral dynamics structural rather than incidental.
+Each example shows how learning activities directly connect to enterprise value.
 
 ---
 
-## 4. How the Numbers Work
+## 3. The Ownership Calculator
 
-### Formula
-\[
-R_i = N \times p \times \frac{s_i}{S}
-\]
+Below is a simplified model of how SOS earnings can scale:
 
-Where:  
-- \( N \) = studio net profit  
-- \( p \) = percentage allocated to student pool  
-- \( s_i \) = your points  
-- \( S \) = total points in pool  
+| Example Studio | Total Revenue (USD) | Student Pool Share | Students | Average Payout |
+|-----------------|--------------------:|------------------:|----------:|----------------:|
+| Unicornworld Installation | 30,000 | 30% | 10 | $900 per student |
+| Channel 99 Series Pilot | 50,000 | 25% | 12 | $1,041 per student |
+| English Is Money Tournament | 12,000 | 40% | 20 | $240 per student |
+| Experience Worker Consulting | 20,000 | 35% | 8 | $875 per student |
 
-### Try It Yourself
+*(These figures are examples — actual shares depend on contribution, revenue type, and studio performance.)*
 
-<div class="calc" style="border:2px solid #a33;padding:1rem;margin:.75rem 0;font-family:ui-monospace,Menlo,Consolas,monospace">
-  <label>Studio Net Profit (THB)
-    <input id="net" type="number" value="2000000" style="width:100%;padding:.25rem;margin:.25rem 0">
-  </label>
-  <label>Student Pool % of Studio Net
-    <input id="poolPct" type="number" value="20" min="0" max="100" style="width:100%;padding:.25rem;margin:.25rem 0">
-  </label>
-  <label>Your Studio Points
-    <input id="yourPts" type="number" value="120" style="width:100%;padding:.25rem;margin:.25rem 0">
-  </label>
-  <label>Total Student Points (this cycle)
-    <input id="totalPts" type="number" value="6000" style="width:100%;padding:.25rem;margin:.25rem 0">
-  </label>
-  <hr style="border:none;border-top:1px solid #a33">
-  <div id="result" style="font-weight:700">Your Payout: —</div>
-  <small>Formula: (Net × Pool%) × (YourPts ÷ TotalPts)</small>
-</div>
-
-<script>
-(function(){
-  const el = id => document.getElementById(id);
-  const fmt = n => new Intl.NumberFormat('th-TH',{maximumFractionDigits:0}).format(n);
-  function calc(){
-    const net = +el('net').value||0;
-    const poolPct = (+el('poolPct').value||0)/100;
-    const yourPts = +el('yourPts').value||0;
-    const totalPts = +el('totalPts').value||1;
-    const payout = (net*poolPct)*(yourPts/totalPts);
-    el('result').textContent = 'Your Payout: ' + fmt(payout) + ' THB';
-  }
-  ['net','poolPct','yourPts','totalPts'].forEach(id=>el(id).addEventListener('input',calc));
-  calc();
-})();
-</script>
+The principle is simple: **if a studio makes money, everyone who built it earns money.**
 
 ---
 
-## 5. Legal and Ethical Framework
+## 4. Why It Matters
 
-- **Trust Structures:** Minor participants’ shares held until legal majority.  
-- **Transparency:** Ledgers and conversion tables published yearly.  
-- **Compliance:** Follows Thai cooperative and education laws.  
-- **Equity Ceilings:** To prevent over-concentration of returns.
+The SOS closes the gap between learning and livelihood.  
+Instead of paying only for a class, students build enterprises that can return income to them.  
+This creates behavioral alignment: when studios succeed, learning itself becomes profitable.
 
----
-
-## 6. Read the Full Model
-
-For an in-depth theoretical and mathematical defense of the system, see:
-
-👉 **[Learning With Stakes: The Rulebreakers English Studios Ownership System (White Paper)](/papers/shared-ownership-calculus/)**
-
-That document elaborates the educational psychology, economic logic, and narrative design underlying the SOS.
+Ownership transforms motivation from abstract (“get better at English”) to concrete (“help launch this show, earn real money, and improve your English doing it”).  
+It turns education into a working creative economy.
 
 ---
 
-## 7. Ongoing Development
+## 5. The Bigger Picture
 
-The SOS is a *living protocol*—tested, audited, and refined with every cohort.  
-Feedback loops between students, facilitators, and investors continually shape its governance.  
-By 2026, all RBES studios will report through a unified **Ownership Ledger**, forming the foundation of **Infinite Thailand’s creative economy layer.**
+The SOS is the microeconomic model inside **∞泰 (Infinite Thailand)** — the national-scale framework where education and enterprise merge.  
+As more studios connect, the shared ownership system becomes a distributed creative economy: thousands of small student-owners driving Thailand’s next creative generation.
 
 ---
 
-> *When education includes ownership, learning stops being rehearsal and becomes performance.*
-
+© 2025 Rulebreakers English Studios  
+Bangkok / Chiang Mai / Everywhere
