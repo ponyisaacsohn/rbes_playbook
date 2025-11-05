@@ -688,3 +688,21 @@ main {
   font-feature-settings: "liga", "kern";
   text-rendering: optimizeLegibility;
 }
+
+/* --- RBES mobile-friendly title fix --- */
+.main-title {
+  font-size: clamp(1.75rem, 6vw, 2.75rem);
+  line-height: 1.2;
+  text-wrap: balance;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+  font-weight: 700;
+}
+.mobile-break {
+  display: none;
+}
+@media (max-width: 600px) {
+  .mobile-break {
+    display: inline;
+  }
+}
