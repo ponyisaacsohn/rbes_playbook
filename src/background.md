@@ -5,7 +5,7 @@ title: "Background"
 
 <h1>Who We Are and How We Came Up With the Rulebreaker Method</h1>
 
-Although we finally discovered the key to the Rulebreaker Method in a [miniature city run entirely by children](https://spiellandschaft.de/minimuenchen/), the story actually begins in 2014 on the South Side of Chicago, with a fake mayoral campaign for Kanye West that unexpectedly went viral.  
+Although we finally discovered the key to the Rulebreaker Method in a [miniature city run entirely by children](https://www.mini-muenchen.info/forschung//), the story actually begins in 2014 on the South Side of Chicago, with a fake mayoral campaign for Kanye West that unexpectedly went viral.  
 
 We’re Ben Shepard and Job Zheng, institutional performance artists and co-founders of [Rulebreakers English Studios](/theory/).  
 

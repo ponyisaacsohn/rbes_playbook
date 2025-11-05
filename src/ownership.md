@@ -1,38 +1,89 @@
 ---
-title: Shared Ownership
 layout: base.njk
-description: "The FAFA model: every participant, student, and teacher holds a share in the creative enterprise."
+title: "The Novel Shared Ownership Structure"
 ---
 
-## Shared Ownership
+# The Novel Shared Ownership Structure
 
-At Rulebreakers English Studios, **everyone is an owner** — not only the co-founders or instructors, but also the students themselves.  
-This principle, called **FAFA (Fictional Asset / Functional Asset)**, redefines what it means to “attend” a school: participation equals partial ownership.
-
-## The FAFA Model
-
-Each studio functions as both a **learning environment** and a **creative startup**.  
-Students receive a symbolic and measurable **equity share** in the projects they co-create — such as publications, games, installations, or digital properties.
-
-| Role | Description | Share Allocation |
-|------|--------------|-----------------:|
-| **CoZheng (co-founder)** | Lead concept and curriculum design | 4,081,500 |
-| **ShepArdInv (co-founder)** | Operations, design, performance systems | 720,900 |
-| **Angel Investors** | Seed and initial launch funding | 720,900 |
-| **Support / Apprentices** | Thai teachers, facilitators, interns | 1,000,000 |
-| **Students (collective pool)** | Studio members with performance shares | 1,000,000 |
-| **Reserve (reinvestment)** | Future studios, scholarships, maintenance | 2,000,000 |
+> **Thesis:** When students build real things, they should **own a real piece** of the upside.  
+> RBES turns learning activity into **Studio Points** that convert into a **transparent revenue share** (and, where appropriate, equity in spin-outs).
 
 ---
 
-## Distribution Mechanism
+## How It Works (Plain Language)
 
-- Each **studio** maintains its own ledger of project-based assets (games, films, guides, performances).  
-- Upon publication or monetization, a proportional return is distributed to participants.  
-- The **central pool** of RBES equity rewards long-term collaboration and experimentation.
+1. **Each active studio** (e.g., Unicornworld, Mean Babies) has a simple cap table-like ledger.  
+2. **RBES allocates Studio Points** every cycle for: contribution, responsibility taken, and shipped outcomes.  
+3. **A fixed portion of a studio’s net** (e.g., 20%) is reserved for the **Student Pool**. Points in the pool → share of that 20%.  
+4. If a studio **spins out** as a company, the pool maps to equity or royalties according to a published conversion table.
 
-This is not merely symbolic. It is a structural attempt to **turn learning into ownership**, and **school into enterprise** — so that education itself becomes a form of creative capital.
+> Documentation: **Shared-Ownership Calculus (White Paper)** — coming soon at `/papers/shared-ownership-calculus/`.
 
 ---
 
-**Next:** [Back to Intellectual Context →](/context/)
+## Behavioral Rationale
+
+- **Skin-in-the-game** aligns effort with outcomes.  
+- **Portfolio logic**: most projects return learning only; **some return cash**. Students see both.  
+- **Civic literacy**: teens and adults learn cap tables, royalties, IP licensing — by doing.
+
+---
+
+## Diagram (Tuition → Points → Payout)
+
+- Your **tuition** funds the studio environment.  
+- Your **work** earns **points**.  
+- The **studio’s net** allocates a portion to the **Student Pool**.  
+- Your **% of the pool** = your **payout** (and possibly equity in a spin-out).
+
+---
+
+## Try the Ownership Calculator
+
+Enter optimistic-but-plausible numbers to feel the upside when a studio **really takes off**.
+
+<div class="calc" style="border:2px solid #a33;padding:1rem;margin:.75rem 0;font-family:ui-monospace,Menlo,Consolas,monospace">
+  <label>Studio Net Profit this Year (THB)
+    <input id="net" type="number" value="2000000" style="width:100%;padding:.25rem;margin:.25rem 0">
+  </label>
+  <label>Student Pool % of Studio Net
+    <input id="poolPct" type="number" value="20" min="0" max="100" style="width:100%;padding:.25rem;margin:.25rem 0">
+  </label>
+  <label>Your Studio Points
+    <input id="yourPts" type="number" value="120" style="width:100%;padding:.25rem;margin:.25rem 0">
+  </label>
+  <label>Total Student Points (this cycle)
+    <input id="totalPts" type="number" value="6000" style="width:100%;padding:.25rem;margin:.25rem 0">
+  </label>
+  <hr style="border:none;border-top:1px solid #a33">
+  <div id="result" style="font-weight:700">Your Payout: —</div>
+  <small>Formula: (Net × Pool%) × (YourPts ÷ TotalPts)</small>
+</div>
+
+<script>
+(function(){
+  const el = id => document.getElementById(id);
+  const fmt = n => new Intl.NumberFormat('th-TH', {maximumFractionDigits: 0}).format(n);
+  function calc(){
+    const net = +el('net').value || 0;
+    const poolPct = (+el('poolPct').value || 0)/100;
+    const yourPts = +el('yourPts').value || 0;
+    const totalPts = +el('totalPts').value || 1;
+    const payout = (net * poolPct) * (yourPts / totalPts);
+    el('result').textContent = 'Your Payout: ' + fmt(payout) + ' THB';
+  }
+  ['net','poolPct','yourPts','totalPts'].forEach(id => el(id).addEventListener('input', calc));
+  calc();
+})();
+</script>
+
+> Curious about multi-year scenarios, tokenization, or exit events? Read the **white paper draft** (soon): `/papers/shared-ownership-calculus/`.
+
+---
+
+### Notes & Safeguards
+
+- **No pay-to-win:** Points are earned by contribution and responsibility, not by ability to pay.  
+- **Transparency:** ledgers are auditable; conversions are published.  
+- **Compliance:** spin-outs use standard Thai company equity structures; minors represented via guardians/trusts where required.
+
