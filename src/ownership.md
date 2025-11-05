@@ -1,49 +1,75 @@
 ---
 layout: base.njk
-title: "The Novel Shared Ownership Structure"
+title: "The Student Ownership System (SOS)"
 ---
 
-# The Novel Shared Ownership Structure
+# The Student Ownership System (SOS)
 
-> **Thesis:** When students build real things, they should **own a real piece** of the upside.  
-> RBES turns learning activity into **Studio Points** that convert into a **transparent revenue share** (and, where appropriate, equity in spin-outs).
-
----
-
-## How It Works (Plain Language)
-
-1. **Each active studio** (e.g., Unicornworld, Mean Babies) has a simple cap table-like ledger.  
-2. **RBES allocates Studio Points** every cycle for: contribution, responsibility taken, and shipped outcomes.  
-3. **A fixed portion of a studio’s net** (e.g., 20%) is reserved for the **Student Pool**. Points in the pool → share of that 20%.  
-4. If a studio **spins out** as a company, the pool maps to equity or royalties according to a published conversion table.
-
-> Documentation: **Shared-Ownership Calculus (White Paper)** — coming soon at `/papers/shared-ownership-calculus/`.
+> **Learning with Stakes.**  
+> Rulebreakers English Studios turns every learning act into a real contribution—tracked, valued, and shared.  
+> The SOS is how students move from “participants” to “co-owners” of what they create.
 
 ---
 
-## Behavioral Rationale
+## 1. What the SOS Is
 
-- **Skin-in-the-game** aligns effort with outcomes.  
-- **Portfolio logic**: most projects return learning only; **some return cash**. Students see both.  
-- **Civic literacy**: teens and adults learn cap tables, royalties, IP licensing — by doing.
+The **Student Ownership System** links learning outcomes to real-world stakes.  
+Each student earns *Studio Points* for creative and operational work done inside a studio.  
+Points translate into a share of that studio’s profits, royalties, or spin-out equity.
 
----
-
-## Diagram (Tuition → Points → Payout)
-
-- Your **tuition** funds the studio environment.  
-- Your **work** earns **points**.  
-- The **studio’s net** allocates a portion to the **Student Pool**.  
-- Your **% of the pool** = your **payout** (and possibly equity in a spin-out).
+| Component | Function | Analogy |
+|------------|-----------|----------|
+| **Studio Points** | Quantify contribution and responsibility | “stock options” for creative effort |
+| **Student Pool (20%)** | Portion of each studio’s net reserved for participants | cooperative profit-share |
+| **Conversion Rule** | Points convert to revenue or equity upon spin-out | ESOP-like logic |
+| **Ledger** | Transparent record of all allocations | open accounting |
 
 ---
 
-## Try the Ownership Calculator
+## 2. Why It Matters
 
-Enter optimistic-but-plausible numbers to feel the upside when a studio **really takes off**.
+Traditional schooling asks students to simulate outcomes for grades.  
+RBES asks them to build outcomes that *exist in the world.*  
+When you co-own the result:
+
+- Motivation becomes intrinsic.  
+- Collaboration becomes accountable.  
+- English becomes a working language—not a subject.
+
+> In short: **Learning = Doing, Doing = Ownership.**
+
+---
+
+## 3. Behavioral Rationale
+
+The SOS design draws on established research:
+
+- **Self-Determination Theory** – Autonomy, competence, and relatedness drive intrinsic motivation.  
+- **Prospect Theory** – Perceived stakes sharpen focus.  
+- **The IKEA Effect** – We value what we help create.  
+- **Narrative Intelligence** – Ownership makes students protagonists, not test subjects.
+
+RBES makes these behavioral dynamics structural rather than incidental.
+
+---
+
+## 4. How the Numbers Work
+
+### Formula
+\[
+R_i = N \times p \times \frac{s_i}{S}
+\]
+
+Where:  
+- \( N \) = studio net profit  
+- \( p \) = percentage allocated to student pool  
+- \( s_i \) = your points  
+- \( S \) = total points in pool  
+
+### Try It Yourself
 
 <div class="calc" style="border:2px solid #a33;padding:1rem;margin:.75rem 0;font-family:ui-monospace,Menlo,Consolas,monospace">
-  <label>Studio Net Profit this Year (THB)
+  <label>Studio Net Profit (THB)
     <input id="net" type="number" value="2000000" style="width:100%;padding:.25rem;margin:.25rem 0">
   </label>
   <label>Student Pool % of Studio Net
@@ -63,27 +89,48 @@ Enter optimistic-but-plausible numbers to feel the upside when a studio **really
 <script>
 (function(){
   const el = id => document.getElementById(id);
-  const fmt = n => new Intl.NumberFormat('th-TH', {maximumFractionDigits: 0}).format(n);
+  const fmt = n => new Intl.NumberFormat('th-TH',{maximumFractionDigits:0}).format(n);
   function calc(){
-    const net = +el('net').value || 0;
-    const poolPct = (+el('poolPct').value || 0)/100;
-    const yourPts = +el('yourPts').value || 0;
-    const totalPts = +el('totalPts').value || 1;
-    const payout = (net * poolPct) * (yourPts / totalPts);
+    const net = +el('net').value||0;
+    const poolPct = (+el('poolPct').value||0)/100;
+    const yourPts = +el('yourPts').value||0;
+    const totalPts = +el('totalPts').value||1;
+    const payout = (net*poolPct)*(yourPts/totalPts);
     el('result').textContent = 'Your Payout: ' + fmt(payout) + ' THB';
   }
-  ['net','poolPct','yourPts','totalPts'].forEach(id => el(id).addEventListener('input', calc));
+  ['net','poolPct','yourPts','totalPts'].forEach(id=>el(id).addEventListener('input',calc));
   calc();
 })();
 </script>
 
-> Curious about multi-year scenarios, tokenization, or exit events? Read the **white paper draft** (soon): `/papers/shared-ownership-calculus/`.
+---
+
+## 5. Legal and Ethical Framework
+
+- **Trust Structures:** Minor participants’ shares held until legal majority.  
+- **Transparency:** Ledgers and conversion tables published yearly.  
+- **Compliance:** Follows Thai cooperative and education laws.  
+- **Equity Ceilings:** To prevent over-concentration of returns.
 
 ---
 
-### Notes & Safeguards
+## 6. Read the Full Model
 
-- **No pay-to-win:** Points are earned by contribution and responsibility, not by ability to pay.  
-- **Transparency:** ledgers are auditable; conversions are published.  
-- **Compliance:** spin-outs use standard Thai company equity structures; minors represented via guardians/trusts where required.
+For an in-depth theoretical and mathematical defense of the system, see:
+
+👉 **[Learning With Stakes: The Rulebreakers English Studios Ownership System (White Paper)](/papers/shared-ownership-calculus/)**
+
+That document elaborates the educational psychology, economic logic, and narrative design underlying the SOS.
+
+---
+
+## 7. Ongoing Development
+
+The SOS is a *living protocol*—tested, audited, and refined with every cohort.  
+Feedback loops between students, facilitators, and investors continually shape its governance.  
+By 2026, all RBES studios will report through a unified **Ownership Ledger**, forming the foundation of **Infinite Thailand’s creative economy layer.**
+
+---
+
+> *When education includes ownership, learning stops being rehearsal and becomes performance.*
 
